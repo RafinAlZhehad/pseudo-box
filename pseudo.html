@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            font-size: 30px;
+        }
         h1{
             color: aquamarine;
         }
@@ -21,6 +24,19 @@
         a:visited{
             color: red;
         }
+        li:first-child{
+            color: chocolate;
+        }
+        li:nth-child(2n){
+            background-color: bisque;
+        }
+
+        h3::before{
+            content: 'Hello' ;
+        }
+        h3::after{
+            content: 'Gello';
+        }
         
 
     </style>
@@ -33,6 +49,19 @@
     <br>
     <a href="https://www.google.com/">Google e jao</a>
     <a href="https://www.youtube.com/">youtube e jao</a>
+    <br>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Malia</li>
+        <li>Salia</li>
+        <li>Jalia</li>
+
+    </ul>
+    <h3>1</h3>
+    <h3>2</h3>
+    <h3>3</h3>
 
 
 </body>
